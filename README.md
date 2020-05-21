@@ -12,3 +12,5 @@ __Dependencies__
 - time
 - generate an etherscan.io api key [here](https://etherscan.io/myapikey)
 - The main function is print-ftt-burns-graph.py
+
+https://github.com/Dante2333/FTT-Burn/blob/master/imgs/Figure_1.jpeg?raw=true
