@@ -13,4 +13,4 @@ __Dependencies__
 - generate an etherscan.io api key [here](https://etherscan.io/myapikey)
 - The main function is print-ftt-burns-graph.py
 
-<img src="imgs/Figure_1.jpeg" width="100">
+<img src="imgs/Figure_1.jpeg" width="1200">
