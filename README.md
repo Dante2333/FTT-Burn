@@ -2,7 +2,7 @@
 
 This script allows you to consistently monitor FTT Burn done by FTX, download real time using etherscan.io API, check daily price of FTT (do an average of OHLC) then chart it as a line chart from timestamp/burn-in-usd
 
-__Requirements__
+__Dependencies__
 
 - pandas
 - requests
