@@ -9,8 +9,10 @@ myapi = "EBXKT4PTN38SXXZXI2GPTUA9D5JEMAAHHB"
 burn = "0x0000000000000000000000000000000000000000"
 startblock = str(826112)
 contract = "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9"
-
-url = "https://api.etherscan.io/api?module=account&action=tokentx&contractaddress="+contract+"&address=" + burn + "&page=1&offset=100&sort=asc&apikey="+myapi
+params1 = "https://api.etherscan.io/api?module=account&action=tokentx"
+params2 = "&contractaddress=" + contract + "&address=" + burn
+params3 = "&page=1&offset=100&sort=asc&apikey=" + myapi
+url = params1 + params2 + params3
 response = requests.get(url)
 address_content = response.json()
 

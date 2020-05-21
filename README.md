@@ -1,1 +1,14 @@
-This is a test on how to build FTT burn line chart and pulling all burn candles from etherscan and calculating an estimate of FTT price on the day when it was burned
+# Read ME
+
+This script allows you to consistently monitor FTT Burn done by FTX, download real time using etherscan.io API, check daily price of FTT (do an average of OHLC) then chart it as a line chart from timestamp/burn-in-usd
+
+__Requirements__
+
+- pandas
+- requests
+- numpy
+- datetime
+- json
+- time
+- generate an etherscan.io api key [here](https://etherscan.io/myapikey)
+- The main function is print-ftt-burns-graph.py
