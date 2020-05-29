@@ -8,8 +8,6 @@ __Dependencies__
 - requests
 - numpy
 - datetime
-- json
-- time
 - generate an etherscan.io api key [here](https://etherscan.io/myapikey)
 - The main function is print-ftt-burns-graph.py
 
